@@ -1,7 +1,7 @@
 import test from 'ava';
 import fn from './';
 
-test(async t => {
+test('main', async t => {
 	const x = [];
 
 	await * [
@@ -15,4 +15,8 @@ test(async t => {
 	];
 
 	t.same(x, [1, 0]);
+});
+
+test('transfers value', async t => {
+	t.same(await Promise.resolve('x').then(fn), 'x');
 });
