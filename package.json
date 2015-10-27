@@ -1,0 +1,45 @@
+{
+  "name": "immediate-promise",
+  "version": "0.0.0",
+  "description": "Returns a promise resolved in the next event loop - think `setImmediate()`",
+  "license": "MIT",
+  "repository": "sindresorhus/immediate-promise",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "promise",
+    "resolve",
+    "immediate",
+    "setimmediate",
+    "event",
+    "loop",
+    "next",
+    "tick",
+    "delay",
+    "timeout"
+  ],
+  "dependencies": {
+    "pinkie-promise": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
