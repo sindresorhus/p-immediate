@@ -16,3 +16,11 @@ test(async t => {
 
 	t.same(x, [1, 0]);
 });
+
+test(async t => {
+
+	var result = await Promise.resolve('value')
+						.then(fn);
+
+	t.same(result, 'value');
+});
