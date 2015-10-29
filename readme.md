@@ -25,6 +25,11 @@ somePromise()
 ```
 
 
+## Related
+
+- [set-immediate-shim](https://github.com/sindresorhus/set-immediate-shim) - Simple `setImmediate` shim
+
+
 ## License
 
 MIT © [Sindre Sorhus](http://sindresorhus.com)
