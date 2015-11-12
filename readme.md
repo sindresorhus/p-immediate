@@ -28,6 +28,7 @@ somePromise()
 ## Related
 
 - [set-immediate-shim](https://github.com/sindresorhus/set-immediate-shim) - Simple `setImmediate` shim
+- [delay](https://github.com/sindresorhus/delay) - Delay a promise a specified amount of time
 
 
 ## License
