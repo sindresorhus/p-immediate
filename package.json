@@ -1,6 +1,6 @@
 {
   "name": "immediate-promise",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Returns a promise resolved in the next event loop - think `setImmediate()`",
   "license": "MIT",
   "repository": "sindresorhus/immediate-promise",
