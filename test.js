@@ -4,7 +4,7 @@ import fn from './';
 test('main', async t => {
 	const x = [];
 
-	await * [
+	await Promise.all([
 		(async () => {
 			await fn();
 			x.push(0);
@@ -12,11 +12,11 @@ test('main', async t => {
 		(async () => {
 			x.push(1);
 		})()
-	];
+	]);
 
-	t.same(x, [1, 0]);
+	t.deepEqual(x, [1, 0]);
 });
 
 test('transfers value', async t => {
-	t.same(await Promise.resolve('x').then(fn), 'x');
+	t.deepEqual(await Promise.resolve('x').then(fn), 'x');
 });
