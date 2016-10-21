@@ -27,10 +27,11 @@ somePromise()
 
 ## Related
 
-- [set-immediate-shim](https://github.com/sindresorhus/set-immediate-shim) - Simple `setImmediate` shim
 - [delay](https://github.com/sindresorhus/delay) - Delay a promise a specified amount of time
+- [p-timeout](https://github.com/sindresorhus/p-timeout) - Timeout a promise after a specified amount of time
+- [More…](https://github.com/sindresorhus/promise-fun)
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

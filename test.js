@@ -1,12 +1,14 @@
 import test from 'ava';
-import fn from './';
+import m from './';
+
+const fixture = Symbol('fixture');
 
 test('main', async t => {
 	const x = [];
 
 	await Promise.all([
 		(async () => {
-			await fn();
+			await m();
 			x.push(0);
 		})(),
 		(async () => {
@@ -18,5 +20,5 @@ test('main', async t => {
 });
 
 test('transfers value', async t => {
-	t.deepEqual(await Promise.resolve('x').then(fn), 'x');
+	t.deepEqual(await Promise.resolve(fixture).then(m), fixture);
 });
