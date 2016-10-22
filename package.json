@@ -1,9 +1,9 @@
 {
-  "name": "immediate-promise",
+  "name": "p-immediate",
   "version": "2.0.0",
   "description": "Returns a promise resolved in the next event loop - think `setImmediate()`",
   "license": "MIT",
-  "repository": "sindresorhus/immediate-promise",
+  "repository": "sindresorhus/p-immediate",
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",

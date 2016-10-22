@@ -1,4 +1,4 @@
-# immediate-promise [![Build Status](https://travis-ci.org/sindresorhus/immediate-promise.svg?branch=master)](https://travis-ci.org/sindresorhus/immediate-promise)
+# p-immediate [![Build Status](https://travis-ci.org/sindresorhus/p-immediate.svg?branch=master)](https://travis-ci.org/sindresorhus/p-immediate)
 
 > Returns a promise resolved in the next event loop - think [`setImmediate()`](https://nodejs.org/api/timers.html#timers_setimmediate_callback_arg)
 
@@ -8,17 +8,17 @@ Promises are by default [resolved in a microtask](https://jakearchibald.com/2015
 ## Install
 
 ```
-$ npm install --save immediate-promise
+$ npm install --save p-immediate
 ```
 
 
 ## Usage
 
 ```js
-const immediatePromise = require('immediate-promise');
+const pImmediate = require('p-immediate');
 
 somePromise()
-	.then(immediatePromise)
+	.then(pImmediate)
 	.then(() => {
 		// executed in the next event loop
 	});
