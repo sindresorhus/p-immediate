@@ -28,6 +28,7 @@ somePromise()
 ## Related
 
 - [delay](https://github.com/sindresorhus/delay) - Delay a promise a specified amount of time
+- [p-min-delay](https://github.com/sindresorhus/p-min-delay) - Delay a promise a minimum amount of time
 - [p-timeout](https://github.com/sindresorhus/p-timeout) - Timeout a promise after a specified amount of time
 - [More…](https://github.com/sindresorhus/promise-fun)
 
