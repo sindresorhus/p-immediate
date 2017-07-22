@@ -8,7 +8,7 @@ Promises are by default [resolved in a microtask](https://jakearchibald.com/2015
 ## Install
 
 ```
-$ npm install --save p-immediate
+$ npm install p-immediate
 ```
 
 

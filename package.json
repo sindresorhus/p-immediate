@@ -1,44 +1,41 @@
 {
-  "name": "p-immediate",
-  "version": "2.1.0",
-  "description": "Returns a promise resolved in the next event loop - think `setImmediate()`",
-  "license": "MIT",
-  "repository": "sindresorhus/p-immediate",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "promise",
-    "resolve",
-    "immediate",
-    "setimmediate",
-    "event",
-    "loop",
-    "next",
-    "tick",
-    "delay",
-    "timeout",
-    "async",
-    "await",
-    "promises",
-    "bluebird"
-  ],
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
-  }
+	"name": "p-immediate",
+	"version": "2.1.0",
+	"description": "Returns a promise resolved in the next event loop - think `setImmediate()`",
+	"license": "MIT",
+	"repository": "sindresorhus/p-immediate",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"promise",
+		"resolve",
+		"immediate",
+		"setimmediate",
+		"event",
+		"loop",
+		"next",
+		"tick",
+		"delay",
+		"timeout",
+		"async",
+		"await",
+		"promises",
+		"bluebird"
+	],
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
 }

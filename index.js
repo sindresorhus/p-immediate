@@ -4,4 +4,3 @@ module.exports = val => new Promise(resolve => {
 		resolve(val);
 	});
 });
-
