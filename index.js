@@ -1,6 +1,10 @@
 'use strict';
-module.exports = val => new Promise(resolve => {
+
+const pImmediate = value => new Promise(resolve => {
 	setImmediate(() => {
-		resolve(val);
+		resolve(value);
 	});
 });
+
+module.exports = pImmediate;
+module.exports.default = pImmediate;
