@@ -4,19 +4,19 @@ import pImmediate from '.';
 const fixture = Symbol('fixture');
 
 test('main', async t => {
-	const x = [];
+	const values = [];
 
 	await Promise.all([
 		(async () => {
 			await pImmediate();
-			x.push(0);
+			values.push(0);
 		})(),
 		(async () => {
-			x.push(1);
+			values.push(1);
 		})()
 	]);
 
-	t.deepEqual(x, [1, 0]);
+	t.deepEqual(values, [1, 0]);
 });
 
 test('transfers value', async t => {

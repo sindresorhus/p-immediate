@@ -18,8 +18,10 @@ $ npm install p-immediate
 const pImmediate = require('p-immediate');
 
 (async () => {
-	const value = await pImmediate(await somePromise());
-	// executed in the next event loop
+	await pImmediate();
+
+	// Executed in the next event loop
+	console.log('🦄');
 })();
 ```
 
