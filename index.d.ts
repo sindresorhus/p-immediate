@@ -13,4 +13,4 @@ import pImmediate from 'p-immediate';
 })();
 ```
 */
-export default function pImmediate<ValueType>(value: ValueType): Promise<ValueType>;
+export default function pImmediate(): Promise<void>;
