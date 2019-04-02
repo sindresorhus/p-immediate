@@ -5,4 +5,5 @@ const pImmediate = () => new Promise(resolve => {
 });
 
 module.exports = pImmediate;
+// TODO: Remove this for the next major release
 module.exports.default = pImmediate;
