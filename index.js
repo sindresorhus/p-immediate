@@ -1,7 +1,11 @@
 'use strict';
 
 const pImmediate = () => new Promise(resolve => {
-	setImmediate(resolve);
+	if (typeof setImmediate === 'function') {
+		setImmediate(resolve);
+	} else {
+		setTimeout(resolve);
+	}
 });
 
 module.exports = pImmediate;
