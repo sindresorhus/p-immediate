@@ -1,6 +1,6 @@
 {
 	"name": "p-immediate",
-	"version": "3.1.0",
+	"version": "3.2.0",
 	"description": "Returns a promise resolved in the next event loop - think `setImmediate()`",
 	"license": "MIT",
 	"repository": "sindresorhus/p-immediate",
