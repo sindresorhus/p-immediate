@@ -1,5 +1,5 @@
 import test from 'ava';
-import pImmediate from '.';
+import pImmediate from './index.js';
 
 test('main', async t => {
 	const values = [];
